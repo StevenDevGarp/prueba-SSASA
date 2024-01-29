@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="./public/style/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registro de Empleado</h1>
+
+<form action="" method="POST" id="registerForm">
+    <!-- Campos del formulario -->
+    <label for="numeroDPIEmpleado">Número de DPI:</label>
+    <input type="text" id="numeroDPIEmpleado" name="numeroDPIEmpleado" required><br><br>
+
+    <label for="primerNombreEmpleado">Primer Nombre:</label>
+    <input type="text" id="primerNombreEmpleado" name="primerNombreEmpleado" required><br><br>
+
+    <label for="segundoNombreEmpleado">Segundo Nombre:</label>
+    <input type="text" id="segundoNombreEmpleado" name="segundoNombreEmpleado"><br><br>
+
+    <label for="primerApellidoEmpleado">Primer Apellido:</label>
+    <input type="text" id="primerApellidoEmpleado" name="primerApellidoEmpleado" required><br><br>
+
+    <label for="segundoApellidoEmpleado">Segundo Apellido:</label>
+    <input type="text" id="segundoApellidoEmpleado" name="segundoApellidoEmpleado"><br><br>
+
+    <label for="sexoEmpleado">Sexo:</label>
+    <select id="sexoEmpleado" name="sexoEmpleado">
+        <option value="M">Masculino</option>
+        <option value="F">Femenino</option>
+    </select><br><br>
+
+    <label for="fechaIngresoEmpresaEmpleado">Fecha de Ingreso:</label>
+    <input type="date" id="fechaIngresoEmpresaEmpleado" name="fechaIngresoEmpresaEmpleado" required><br><br>
+
+    <label for="fechaNacimientoEmpleado">Fecha de Nacimiento:</label>
+    <input type="date" id="fechaNacimientoEmpleado" name="fechaNacimientoEmpleado" required><br><br>
+
+    <label for="direccionEmpleado">Dirección:</label>
+    <textarea id="direccionEmpleado" name="direccionEmpleado"></textarea><br><br>
+
+    <label for="NIT_Empledo">NIT:</label>
+    <input type="text" id="NIT_Empledo" name="NIT_Empledo"><br><br>
+
+    <label for="departamentoAsignado">Departamento Asignado:</label>
+    <select selected="seleccciona la opcion" id="departamentoAsignado" name="departamentoAsignado">
+        <option selected disabled hidden>Selecciona un Departamento</option>
+        <option value="1">Créditos y Cobros</option>
+        <option value="2">Publicidad e Imagen Corporativa</option>
+        <option value="3">Gerencia General</option>
+        <option value="4">Finanzas</option>
+        <option value="5">Mercadeo</option>
+        <option value="6">Contabilidad</option>
+        <option value="7">Negocios</option>
+        <option value="8">Administración</option>
+        <option value="9">Informática</option>
+        <option value="10">Corporativo</option>
+        <option value="11">Riesgos</option>
+        <option value="12">Ventas</option>
+    </select><br><br>
+
+    <!-- Botón de enviar -->
+    <button type="submit">Registrar</button>
+</form>
+    <script src="./public/src/main.js"></script>
+</body>
+</html>

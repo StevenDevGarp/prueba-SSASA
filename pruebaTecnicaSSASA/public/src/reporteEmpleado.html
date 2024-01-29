@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="../style/styleReporte.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Buscar Empleado y Generar Reporte</h1>
+    <div class="searchForm">
+        <form action="" method="POST" id="searchForm">
+            <label for="searchEmployee">Buscar por Número de DPI:</label>
+            <input type="text" id="searchEmployee" name="searchEmployee" required>
+            <button type="submit">Buscar</button>
+        </form>
+        <div class="report">
+            <button id="generateReportBtn">Generar Reporte</button>
+            <button id="sendReportBtn">enviar Reporte por correo</button>
+        </div>
+    </div>
+
+    <div id="employeeDetails">
+        <h2>Detalles del Empleado</h2>
+        <p id="employeeName"></p>
+        <p id="employeeGender"></p>
+        <p id="employeeBirthDate"></p>
+        <p id="employeeAddress"></p>
+        <p id="employeeNIT"></p>
+        <p id="employeeDepartment"></p>
+        <p id="employeePosition"></p>
+        <p id="employeeSalary"></p>
+        <p id="employeeEntryDate"></p>
+    </div>
+
+    
+
+<script src="./public/src/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+@Prueba_software_ssasa_HostAddress = http://localhost:5124
+
+GET {{Prueba_software_ssasa_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
